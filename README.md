@@ -42,7 +42,7 @@ This diagram illustrates the **complete lifecycle** of the Nepal Legal LLM:
 | Endpoint | Type | URL |
 |----------|------|-----|
 | **GGUF API** | Production | [API Docs](https://yamraj047-api-nepal-legal-llm-gguf.hf.space/docs) |
-| **Standard API** | Full-Precision | [API Docs](https://yamraj047-nepal-legal-assistant_api.hf.space/docs) |
+| **Standard API** | Full-Precision | [API Docs](https://yamraj047-api-nepal-legal-llm.hf.space/docs) |
 
 ### 🤗 Models on Hugging Face
 
