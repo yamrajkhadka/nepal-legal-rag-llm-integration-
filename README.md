@@ -59,32 +59,42 @@ This diagram illustrates the **complete lifecycle** of the Nepal Legal LLM:
 ```
 nepal-legal-ai-system/
 │
-├── 1-rag-system/              # RAG Pipeline
-│   ├── pdf->text_nochunk/     # PDF extraction
-│   ├── chunk_id-add/          # Legal chunking
-│   ├── embedding/             # Vector embeddings
-│   └── app.py                 # Streamlit RAG demo
+├── 1-rag-system/                 # RAG Pipeline
+│   ├── pdf->text_nochunk/
+│   ├── chunk_id-add/
+│   ├── embedding/
+│   └── app.py
 │
-├── 2-fine-tuning/             # LLM Fine-Tuning
-│   ├── pdf->text_nochunk/     # Text extraction
-│   ├── chunk_id-add/          # Chunking with IDs
-│   ├── metadata/              # Legal metadata
-│   ├── training/              # Fine-tuning notebooks
-│   └── I-i-o-metadata/        # Instruction dataset
+├── 2-fine-tuning/                # LLM Fine-Tuning
+│   ├── pdf->text_nochunk/
+│   ├── chunk_id-add/
+│   ├── metadata/
+│   ├── training/
+│   └── I-i-o-metadata/
 │
-├── 3-production-api/          # Production Backend
-│   ├── backend/               # FastAPI application
-│   │   ├── llm.py            # GGUF model loading
-│   │   ├── rag_pipeline.py   # RAG orchestration
-│   │   ├── prompts.py        # Prompt templates
-│   │   └── main.py           # API endpoints
-│   ├── vectorstore/           # Embeddings & metadata
-│   ├── config/                # Configuration
+├── 3-production-api/             # Production Backend
+│   ├── backend/
+│   │   ├── llm.py
+│   │   ├── rag_pipeline.py
+│   │   ├── prompts.py
+│   │   └── main.py
+│   ├── vectorstore/
+│   ├── config/
 │   └── requirements.txt
 │
-└── 4-streamlit-frontend/      # User Interface
-    ├── app.py                 # Streamlit application
-    └── requirements.txt
+├── frontend/                     # Frontend Layer (Unified)
+│   │
+│   ├── streamlit-frontend/       # ✅ Current UI (Active)
+│   │   ├── app.py
+│   │   ├── components/           # (optional later)
+│   │   └── requirements.txt
+│   │
+│   └── react-frontend/           # 🚧 Future UI (Planned)
+│       ├── README.md             # Explain future plan
+│       └── .gitkeep              # Keep folder tracked
+│
+└── README.md                     # Main project overview
+
 ```
 
 ---
