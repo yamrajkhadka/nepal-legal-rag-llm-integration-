@@ -14,15 +14,9 @@ This repository represents a **full-stack legal AI engineering project** that tr
 ✅ **Dual AI Approaches** — RAG for retrieval + Fine-tuned LLM for reasoning  
 ✅ **Production Deployment** — REST APIs + Interactive Web Interface  
 ✅ **Multi-Client Support** — Web UI + Android App
+
 ✅ **Legal Traceability** — Every answer linked to specific law sections  
 ✅ **Open Source & Reproducible** — Fully documented methodology
-✅ Complete Legal Data Pipeline — PDF → structured legal chunks → embeddings
-✅ Dual AI Reasoning — RAG (retrieval-grounded) + Fine-Tuned LLM (legal reasoning)
-✅ Production Deployment — FastAPI + Hugging Face Spaces
-✅ Multi-Client Support — Web UI + Android App
-✅ Legal Traceability — Answers grounded to specific chapters & sections
-✅ CPU-Friendly Inference — GGUF quantized models
-✅ Open & Reproducible Research
 
 ---
 
