@@ -2,7 +2,7 @@
 
 **A Complete End-to-End Legal AI Solution for Nepal's National Penal Code, 2017**
 
-An integrated legal AI system combining Retrieval-Augmented Generation (RAG), Fine-Tuned Large Language Models (LLM), and Production-Ready APIs to deliver accurate, grounded legal assistance for Nepali law.
+An integrated legal AI system combining Retrieval-Augmented Generation (RAG), Fine-Tuned Large Language Models (LLM),REST APIs, Web UI, and Android Mobile App to deliver accurate, grounded legal assistance for Nepali law.
 
 ---
 
@@ -13,6 +13,7 @@ This repository represents a **full-stack legal AI engineering project** that tr
 ✅ **Complete Legal Data Pipeline** — PDF extraction → structured chunking → embeddings  
 ✅ **Dual AI Approaches** — RAG for retrieval + Fine-tuned LLM for reasoning  
 ✅ **Production Deployment** — REST APIs + Interactive Web Interface  
+✅ **Multi-Client Support** -Web UI + Android App
 ✅ **Legal Traceability** — Every answer linked to specific law sections  
 ✅ **Open Source & Reproducible** — Fully documented methodology
 
