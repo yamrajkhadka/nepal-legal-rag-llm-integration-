@@ -77,6 +77,40 @@ ___
 
 > ⚠️ *Note:* This is an Expo build intended for testing and demonstration purposes.  
 > The app communicates with the live production API and does not store legal data locally.
+---
+
+## 📷 Document Scanner (Android – Experimental)
+
+The Android app includes an **on-device document scanning feature** designed for capturing **physical legal documents** (e.g., court notices, printed laws, handwritten notes) **after the app is installed**.
+
+> 📌 **Important**  
+> The QR code provided above is **only for installing the Android app (Expo build)**.  
+> It is **not related to the document scanner feature**.
+
+### Capabilities
+- Scan documents using the device camera  
+- Auto-crop and perspective correction  
+- Convert scanned pages into readable images  
+- Prepare documents for future **OCR + Legal AI analysis**  
+
+### Current Status
+- ⚙️ Available inside the installed Android app *(experimental)*  
+- 🧪 Used only for document capture *(no automatic OCR or AI analysis yet)*  
+- 🚧 Planned integration with **OCR + RAG pipeline**  
+
+### Purpose
+This scanner lays the foundation for **multi-modal legal assistance**, enabling future workflows such as:
+- Scanned document → OCR → Legal chunking → AI explanation  
+- Uploading court papers for simplified legal understanding  
+- Offline-first document capture for low-connectivity regions  
+
+---
+
+## 📸 Document Scanner Preview (Android)
+
+![Document Scanner – Android](assets/scanner-preview.png)
+
+
 
 
 ---
