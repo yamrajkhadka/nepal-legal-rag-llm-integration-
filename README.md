@@ -107,8 +107,7 @@ This scanner lays the foundation for **multi-modal legal assistance**, enabling 
 ---
 
 ## 📸 Document Scanner Preview (Android)
-
-![Document Scanner – Android](https://github.com/e-wakil/nepal-legal-rag-llm-integration-penal-code/blob/main/integrated-finetune.png)
+<img src="docs/scanner-flow.png" alt="Scanner → OCR → LLM → Answer" width="400"/>
 
 
 
