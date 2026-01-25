@@ -107,7 +107,7 @@ This scanner lays the foundation for **multi-modal legal assistance**, enabling 
 ---
 
 ## 📸 Document Scanner Preview (Android)
-<img src="integrated-finetune.png" alt="Scanner → OCR → LLM → Answer" width="200"/>
+<img src="integrated-finetune.png" alt="Scanner → OCR → LLM → Answer" width="400"/>
 
 
 
