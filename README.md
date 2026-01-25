@@ -88,15 +88,15 @@ nepal-legal-ai-system/
 │   │
 │   ├── streamlit-frontend/       # ✅ Current UI (Active)
 │   │   ├── app.py
-│   │   ├── components/           # (optional later)
+│   │   ├── components/         # (optional later)
 │   │   └── requirements.txt
 │   │
 │   └── react-frontend/           # 🚧 Future UI (Planned)
-│       ├── README.md             # Explain future plan
-│       └── .gitkeep              # Keep folder tracked
-│
-└── README.md                     # Main project overview
-
+│   |    ├── README.md             # Explain future plan
+│   |    └── .gitkeep              # Keep folder tracked
+│   |     
+|   |____android-app/              # Android app (API-based)                
+|
 ```
 
 ---
