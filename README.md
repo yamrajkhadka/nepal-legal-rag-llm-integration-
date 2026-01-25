@@ -56,6 +56,31 @@ This diagram illustrates the **complete lifecycle** of the Nepal Legal LLM:
 
 ---
 
+### 📱 Android Mobile Application
+
+A native **Android legal assistant app** built using **Expo + React Native**, powered entirely by the production Nepal Legal AI API.
+
+**Key Features:**
+- Chat-based legal question answering
+- Real-time responses from GGUF-optimized LLM
+- Uses the same grounded RAG + LLM backend as the web system
+- Lightweight client (no on-device model inference)
+- Designed for accessibility and low-resource devices
+
+**Backend API Used:**
+https://yamraj047-api-nepal-legal-llm-gguf.hf.space
+___
+
+**Android Build (Expo):**
+- 🔗 **Download / Install Build:**  
+  https://expo.dev/accounts/yamraj047/projects/NepalLegalApp/builds/0594c69b-3a54-47ab-893a-c5f78fa668b2
+
+> ⚠️ *Note:* This is an Expo build intended for testing and demonstration purposes.  
+> The app communicates with the live production API and does not store legal data locally.
+
+
+---
+
 ## 📦 Repository Structure
 
 ```
